@@ -1,0 +1,13 @@
+# For Creating the Nginx Deployment
+
+kubectl apply -f deployment.yaml
+
+#Display information about the Deployment
+
+kubectl describe deployment nginx
+
+# For Creating the Nginx Service
+kubectl apply -f service.yaml
+
+# For Creating the Nginx Ingress
+kubectl apply -f ingress.yaml
